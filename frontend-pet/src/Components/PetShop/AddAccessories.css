@@ -1,0 +1,90 @@
+/* PetShopAccessories.css */
+
+.pet-shop-accessories-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.h3 {
+  text-align: center;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.add-accessory {
+  margin-bottom: 20px;
+}
+
+.add-accessory label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-accessory input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.message-box {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.message-box p {
+  margin-bottom: 5px;
+}
+
+.message-box button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.message-box button:hover {
+  background-color: #c82333;
+}

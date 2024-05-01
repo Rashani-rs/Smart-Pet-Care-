@@ -1,0 +1,37 @@
+.pet-medical-reports-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f3dbfe;
+}
+
+.reports-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.category {
+  margin-bottom: 10px;
+}
+
+.category h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-style: oblique, bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.reports-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.report-item {
+  margin-bottom: 10px;
+}
+
+.pet-name {
+  font-style: oblique;
+}

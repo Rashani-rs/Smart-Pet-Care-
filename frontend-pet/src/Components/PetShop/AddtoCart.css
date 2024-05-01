@@ -1,0 +1,48 @@
+.buy-pets-needs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.item button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.item button:hover {
+  background-color: #45a049;
+}
+
+.cart {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.receipt {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.confirmation {
+  color: green;
+  margin-bottom: 10px;
+}

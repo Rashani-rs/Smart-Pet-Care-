@@ -1,0 +1,86 @@
+/* VolunteersAndStaff.css */
+.volunteers-and-staff-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.volunteers,
+.staff {
+  width: 28%;
+}
+
+h2 {
+  color: #694e74;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+
+.add-member-form {
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #86738e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.add-member-form {
+  flex: 1;
+  background-color: #bca5c3;
+  padding: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.add-member-form label,
+.add-member-form input,
+.add-member-form select,
+.add-member-form button {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.add-member-form button {
+  background-color: #655075;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-member-form button:hover {
+  background-color: #0056b3;
+}

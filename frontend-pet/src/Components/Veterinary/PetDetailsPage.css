@@ -1,0 +1,20 @@
+/* PetDetailsPage.css */
+.pet-details-container {
+  border: 5px solid #634a6d; /* Add a border */
+
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.details-item {
+  margin-bottom: 10px;
+}
+
+.details-item p {
+  margin: 5px 0;
+}
+
+.details-item strong {
+  margin-right: 5px;
+  font-weight: bold;
+}

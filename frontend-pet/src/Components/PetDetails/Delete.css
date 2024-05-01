@@ -1,0 +1,58 @@
+/* DeletePet.css */
+
+.delete-pet-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.delete-pet-topic {
+  text-align: center;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pet-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+
+.pet-item {
+  display: flex;
+  align-items: center;
+}
+
+.pet-name {
+  flex: 1;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

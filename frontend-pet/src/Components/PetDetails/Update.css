@@ -1,0 +1,44 @@
+/* DeletePet.css */
+.update-pet-page {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.confirmation-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.confirmation-box p {
+  margin-bottom: 10px;
+}
+
+.confirmation-box button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.confirmation-box button:last-child {
+  background-color: #dc3545;
+}
+
+.confirmation-box button:hover {
+  background-color: #0056b3;
+}
+
+.confirmation-box button:last-child:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,29 @@
+/* Diseases.css */
+
+/* Style for the diseases container */
+.diseases-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px; /* Add top margin */
+}
+.diseases-container h1 {
+  margin-left: 250px;
+}
+
+/* Style for the diseases content */
+.diseases-content {
+  text-align: center; /* Center-align text */
+  margin: 20px; /* Add margin */
+}
+
+/* Style for the diseases image */
+.diseases-content img {
+  max-width: 100%; /* Make sure the image fits within its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-bottom: 20px; /* Add bottom margin */
+  margin-left: 250px;
+}
+
+/* Add other styles as needed */

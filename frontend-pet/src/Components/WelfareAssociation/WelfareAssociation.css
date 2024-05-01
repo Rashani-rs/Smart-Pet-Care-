@@ -1,0 +1,25 @@
+/* WelfareAssociation.css */
+
+.welfare-association-container {
+  text-align: center; /* Center-align text */
+  margin-top: 20px; /* Add top margin */
+}
+
+.welfare-association-container img {
+  width: 200; /* Make sure the image fits within its container */
+  height: 70vh; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-bottom: 20px; /* Add bottom margin */
+  margin-left: 150px;
+}
+
+/* Style for the heading */
+.welfare-association-container h1 {
+  font-size: 24px; /* Adjust font size */
+  color: #333; /* Set text color */
+}
+
+.welfare-association-container p {
+  font-size: 16px; /* Adjust font size */
+  color: #666; /* Set text color */
+}

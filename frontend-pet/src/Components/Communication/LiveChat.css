@@ -1,0 +1,26 @@
+#chatbox {
+  height: 400px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-top: 500px;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+#messageForm {
+  display: flex;
+  margin-top: 10px;
+}
+
+#messageInput {
+  flex: 1;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  width: 80px;
+}

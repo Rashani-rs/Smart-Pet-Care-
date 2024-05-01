@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(238, 221, 238);
+}
+/* App.css */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000; /* Ensure nav bar stays on top */
+}
+
+.content {
+  padding-top: 60px; /* Adjust according to nav bar height */
+}

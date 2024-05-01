@@ -1,0 +1,21 @@
+/* Petshop.css */
+
+/* Style for the petshop container */
+.petshop-container {
+  text-align: center; /* Center-align text */
+  margin-top: 80px; /* Add top margin */
+}
+
+/* Style for the petshop image */
+.petshop-container img {
+  width: 850px; /* Make sure the image fits within its container */
+  height: 80vh; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-bottom: 20px; /* Add bottom margin */
+  margin-right: -20%;
+}
+.petshop-container h1 {
+  margin-right: -20%;
+}
+
+/* Add other styles as needed */

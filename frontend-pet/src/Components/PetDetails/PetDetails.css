@@ -1,0 +1,21 @@
+/* PetDetails.css */
+
+/* Style for the pet details container */
+.pet-details-container {
+  text-align: center; /* Center-align text */
+  margin-top: 20px; /* Add top margin */
+}
+.pet-details-container h1 {
+  margin-left: 250px;
+}
+
+/* Style for the pet details image */
+.pet-details-container img {
+  width: 80%; /* Make sure the image fits within its container */
+  height: 85vh; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-bottom: 20px; /* Add bottom margin */
+  margin-left: 250px;
+}
+
+/* Add other styles as needed */

@@ -1,0 +1,39 @@
+/* Symptoms.css */
+
+.symptoms-container {
+  background-color: #c3b2d3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.symptoms-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.symptoms-inputs label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.symptoms-inputs input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.symptoms-inputs input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.symptoms-inputs::after {
+  content: "";
+  display: table;
+  clear: both;
+}
